@@ -144,12 +144,12 @@ class QPI_Reviews {
 		if ( ! $source ) {
 			return;
 		}
-		$variation = get_comment_meta( $comment->comment_ID, self::META_VAR, true );
+		/*$variation = get_comment_meta( $comment->comment_ID, self::META_VAR, true );
 		printf(
 			'<p class="qpi-review-source">Avaliação feita na %s%s</p>',
 			esc_html( $source ),
 			$variation ? ' · ' . esc_html( $variation ) : ''
-		);
+		);*/
 	}
 
 	/** O título da aba conta tudo o que está listado nela (as importadas estão identificadas). */
